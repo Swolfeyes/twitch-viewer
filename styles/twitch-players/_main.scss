@@ -1,0 +1,44 @@
+.twitch-players  {
+
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 4px solid #000;
+    border-radius: 5px;
+    background-color: #7b1791;
+    padding: 20px 30px;
+    margin: 20px 0;
+
+    a, a:active, a:hover, a:visited, a:link {
+      text-decoration: none;
+    }
+
+    h3:hover, h4:hover {
+      font-weight: bold;
+    }
+
+    &__logo {
+      display: table-cell;
+      vertical-align: middle;
+      flex: 0 1 auto;
+
+      img {
+        width: 30px;
+        max-width: 100%;
+        max-height: auto;
+      }
+    }
+
+    &__details {
+      text-align: right;
+      flex: 1 1 auto;
+
+      &__status {
+        position: relative;
+        height: 14px;
+      }
+    }
+  }
+}

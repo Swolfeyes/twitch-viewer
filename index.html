@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitch Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="build/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="root" class="container-fluid">
+      <div class="row-fluid">
+        <div class="col-sm-4">
+          <div class="twitch-logo">
+            <div class="twitch-logo__image">
+              <img class="center-block img-responsive"
+              src="https://d3jjg4nf4bbybe.cloudfront.net/u/161458/215f2b9d039198340d2e57a2b041c0d7633414dd/original/logo-twitch-iosversion-by-akiruuu-d9djk9s.png">
+            </div>
+            <div class="twitch-logo__text">
+              <h1 class="text text--family-orbitron text--size-large text--s-large">Twitch</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id="data" class="twitch-players">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

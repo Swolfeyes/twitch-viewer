@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+// Size
+
+.text {
+
+  &--size-large {
+    font-size: 60px;
+  }
+}
+
+
+// Font families
+
+.text {
+
+  &--family-palatino {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+  }
+
+  &--family-orbitron {
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+
+// Themes
+
+.text {
+
+  &--theme-white {
+    color: #fff;
+  }
+
+  &--theme-light-cyan {
+    color: #71f7ee;
+  }
+}
+
+// States
+
+.text {
+
+  &--status-online {
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      right: 45px;
+      height: 8px;
+      width: 8px;
+      background-color: #09ef78;
+      border-radius: 50%;
+    }
+  }
+}
+
+// Media Queries
+
+@media (max-width: 768px) {
+
+  .text {
+
+    &--s-small {
+      font-size: 10px;
+    }
+
+    &--s-medium {
+      font-size: 20px;
+    }
+
+    &--s-large {
+      font-size: 40px;
+    }
+  }
+}
